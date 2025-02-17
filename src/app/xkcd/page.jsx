@@ -44,9 +44,14 @@ export default function XKCD() {
             {comic && (
                 <>
                 <h1>{comic.title}</h1>
+                <div style={{textAlign: "center"}}>
                 <img src={comic.img}></img>
-                <p>{comic.alt}</p>
+                </div>
+                <p style={{textAlign: "center"}}>{comic.alt}</p>
+                <div style={{textAlign: "center"}}>
                 <button onClick={fetchComic}>Load New Comic</button>
+                </div>
+                
                 
                 </>
             )}

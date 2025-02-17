@@ -5,15 +5,13 @@ h1 {
 img {
 margin-left: auto;
 margin-right: auto;
-margin-top: auto;
-margin-bottom: auto;
 display: flex;
+max-width: 450px;
+max-height: 450px;
+margin-top: 25px;
+padding: 25px;
 }
 
 p {
     justify-content: center;
-}
-
-button{
-    display: flex;
 }

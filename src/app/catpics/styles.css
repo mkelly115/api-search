@@ -5,15 +5,9 @@ h1 {
 img {
 margin-left: auto;
 margin-right: auto;
-margin-top: auto;
-margin-bottom: auto;
 display: flex;
 }
 
 p {
     justify-content: center;
-}
-
-button{
-    display: flex;
 }

@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import "../catpics/styles.css"
 
 export default function CatPics() {
     const [pick, setPick] = useState(null);
@@ -41,8 +42,13 @@ export default function CatPics() {
     return (
         <div>
             {pick && (
-
+                <>
                 <img src={pick.url}></img>
+                <div style={{textAlign: "center"}}>
+                <button onClick={fetchCat}>Load New Duck</button>
+                </div>
+                
+            </>
             )
 
             }
