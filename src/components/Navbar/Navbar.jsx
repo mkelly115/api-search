@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav>
       <Link href="/">Home</Link>
       <Link href="/xkcd">XKCD</Link>
-      <Link href="/contact">Contact</Link>
+      <Link href="/catpics">Cat Photos</Link>
     </nav>
   );
 }
