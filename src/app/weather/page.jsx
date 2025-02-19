@@ -1,5 +1,6 @@
 "use client"
 
+// You are using the WeatherStack Documentation and API Call
 import { useState, useEffect } from "react"
 
 export default function LocalWeather(){
