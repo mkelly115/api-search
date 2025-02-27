@@ -11,6 +11,7 @@ export default function Navbar() {
       <Link href="/catpics">Duck Photos</Link>
       <Link href="ronswanson">Ron Swanson</Link>
       <Link href="weather">Weather Search</Link>
+      <Link href="currency">Currency Exchange</Link>
     </nav>
   );
 }
